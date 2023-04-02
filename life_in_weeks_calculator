@@ -2,6 +2,6 @@ age = input("enter your age:")
 age_as_int = int(age)
 years_remaining = 90 - age_as_int
 
-result = (f"your age is {years_remaining} in years\n {years_remaining * 12} in months\n {years_remaining * 52} in weeks\n {years_remaining * 365} in days")
+message = (f"your age is {years_remaining} in years\n {years_remaining * 12} in months\n {years_remaining * 52} in weeks\n {years_remaining * 365} in days")
 
-print(result)
+print(message)
